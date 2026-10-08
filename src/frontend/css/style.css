@@ -1,0 +1,25 @@
+* {
+margin: 0;
+padding: 0px;
+box-sizing: border-box;
+}
+
+.formulario {
+    display: flex;
+    flex-direction: column;
+    background-color: aliceblue;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 10px 5px 100px black;
+    width: 40%;
+}
+
+.bodylogin {
+    background-image: url(../assets/images/loginbg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;          
+    justify-content: center;
+    align-items: center;
+    height: 100vh; 
+}

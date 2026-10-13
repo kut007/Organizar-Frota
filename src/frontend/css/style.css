@@ -11,7 +11,7 @@ box-sizing: border-box;
     padding: 30px;
     border-radius: 10px;
     box-shadow: 10px 5px 100px black;
-    width: 40%;
+    width: 50%;
 }
 
 .bodylogin {
@@ -22,4 +22,15 @@ box-sizing: border-box;
     justify-content: center;
     align-items: center;
     height: 100vh; 
+}
+
+
+
+.form-group {
+   padding-bottom: 30px;
+}
+
+
+.naotem {
+    margin-top: 5rem;
 }

@@ -32,5 +32,13 @@ box-sizing: border-box;
 
 
 .naotem {
+    display: flex;
     margin-top: 5rem;
+    justify-content: center;
+    
+}
+
+.linkentrar {
+    margin-left: 10px;
+    text-decoration: none;
 }

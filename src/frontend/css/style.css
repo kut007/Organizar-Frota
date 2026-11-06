@@ -2,6 +2,7 @@
 margin: 0;
 padding: 0px;
 box-sizing: border-box;
+font-family: 'Inter', sans-serif;
 }
 
 .formulario {
@@ -42,3 +43,82 @@ box-sizing: border-box;
     margin-left: 10px;
     text-decoration: none;
 }
+
+.imagem-principal {
+  background-image: url(../assets/images/barcopginicial.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 5rem;
+  height: 40rem;
+  color: aliceblue;
+  
+}
+
+.texto-principal {
+font-size: 100px;
+}
+
+.botao-dashboard {
+  margin-top: 5rem;
+  background-color: #ff9216;
+  width: 240px;
+  height: 90px;
+  color: black;
+  font-weight: bold;
+  border: none;
+  border-radius: 5px;
+  font-size: 25px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.botao-dashboard:hover {
+  background-color: #c96f08;
+}
+
+.botao-catalogo {
+  background-color: transparent;
+  width: 270px;
+  height: 90px;
+  color: white;
+  font-weight: bold;
+  border: solid 2px white;
+  border-radius: 5px;
+  font-size: 25px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.botao-catalogo:hover {
+    background-color: #6a6c79;
+}
+
+.container-cards {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+.cards {
+  padding: 100px;
+  background-color: aliceblue;
+  min-height: 100vh; 
+}
+
+.card {
+  border: none;
+  box-shadow: 6px 6px 10px rgb(177, 177, 177); 
+  margin: 15px;
+  padding: 1rem;
+}
+
+.card-title {
+  font-weight: bold;
+  font-size: 40px;
+}
+
+.card-text {
+  font-size: 25px;
+}
+

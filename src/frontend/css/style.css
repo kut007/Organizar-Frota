@@ -166,3 +166,40 @@ font-weight: bold;
   padding-left: 15px;
   margin: 20px 0;
 }
+
+.accordion {
+  max-width: 600px;
+  margin: 20px auto;
+}
+
+.accordion-item {
+
+  border-radius: 8px;
+  margin-bottom: 10px;
+  overflow: hidden;
+}
+
+.accordion-header {
+  padding: 14px 18px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.accordion-body {
+  padding: 14px 18px;
+  font-size: 14px;
+}
+
+.banner-faq{
+  background-image: url(../assets/images/navio-faq.jfif);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 5rem;
+  height: 15rem;
+}
+
+.textao-banner-faq {
+  font-size: 80px;
+  font-weight: bold;
+  color: white;
+}

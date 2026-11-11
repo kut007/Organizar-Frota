@@ -127,7 +127,7 @@ font-size: 100px;
 }
 
 .banner-sobre{
-  background-image: url(../assets/images/sobrenos.jpg);
+  background-image: url(../assets/images/sobrenos.png);
   background-repeat: no-repeat;
   background-size: cover;
   padding: 5rem;
@@ -202,4 +202,36 @@ font-weight: bold;
   font-size: 80px;
   font-weight: bold;
   color: white;
+}
+
+.banner-servicos{
+  background-image: url(../assets/images/servicos.png);
+  color: white;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 5rem;
+  height: 22rem;
+}
+
+.servicos {
+  margin-top: 4rem;
+  margin-bottom: 4rem;
+}
+
+.servico-container{
+  border: solid 1px rgb(184, 195, 206);
+  height: 9rem;
+  padding: 1rem;
+}
+
+.servico-container:hover {
+background-color: white;
+transition: background-color 0.3s ease;
+}
+
+
+.numero-servico {
+color:  #ff9216;
+font-weight: bold;
+margin-bottom: 1rem;
 }

@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@6.0.0-alpha.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-B/GM4XqrwHnWXNOWMbloTmrYXZg10cakYGmpfsR/bbzQ6JAJI4ihuyADKLnBgrCe" crossorigin="anonymous">
+    <script type="module" src="https://cdn.jsdelivr.net/npm/bootstrap@6.0.0-alpha.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-1a/pXj49ZQ1aHEmrJ+gMw1otqoVsYwlEnlD8mIfY2TV03r20Y0CN7uqx1tQogjPL" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@500;600;700;800&family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <title>NaviFrota - Dashboard</title>
+</head>
+<body class="body-dashboard">
+<h4 class="textinho-banner">PAINEL DE COMANDO</h4>
+<h1 class="textao-banner-faq">Visão geral da frota</h1>
+
+<section class="cards-dash">
+    <div class="container-cards">
+    <div class="card" style="width: 18rem; height: 8rem;">
+    <div class="card-body">
+        <span class="badge badge-subtle theme-success w-auto">EM ROTA</span>
+        <h1><strong>3</strong></h1>
+    </div>
+    </div>
+
+    <div class="card" style="width: 18rem; height: 8rem;">
+    <div class="card-body">
+        <span class="badge badge-subtle theme-success w-auto">NO PORTO</span>
+        <h1><strong>2</strong></h1>
+    </div>
+    </div>
+
+    <div class="card" style="width: 18rem; height: 8rem;">
+    <div class="card-body">
+        <span class="badge badge-subtle theme-success w-auto">MANUTENÇÃO</span>
+        <h1><strong>1</strong></h1>
+    </div>
+    </div>
+
+
+    <div class="card" style="width: 18rem; height: 8rem;">
+    <div class="card-body">
+        <span class="badge badge-subtle theme-success w-auto">CONSUMO MÉDIO</span>
+        <h1><strong>42 t/dia</strong></h1>
+    </div>
+    </div>
+
+
+    </div>
+</section>
+
+<section>
+<div class="tabela">
+<h3><strong>Embarcações</strong></h3>
+<br><br>
+<table class="table">
+  <thead>
+    <tr>
+      <th scope="col">NAVIO</th>
+      <th scope="col">TIPO</th>
+      <th scope="col">PORTO</th>
+      <th scope="col">STATUS</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th scope="row">Atlântico Sul</th>
+      <td>Porta-contêiner</td>
+      <td>Santos</td>
+      <td><span class="badge badge-subtle theme-success w-6">EM ROTA</span></td>
+    </tr>
+    <tr>
+      <th scope="row">Maré Alta</th>
+      <td>Rebocador</td>
+      <td>Paranaguá</td>
+      <td><span class="badge badge-subtle theme-secondary w-6">NO PORTO</span></td>
+    </tr>
+    <tr>
+      <th scope="row">Estrela do Norte</th>
+      <td>Graneleiro</td>
+      <td>Itaqui</td>
+      <td><span class="badge badge-subtle theme-success w-6">EM ROTA</span></td>
+    </tr>
+    <tr>
+      <th scope="row">Brisa Azul</th>
+      <td>Supply offshore</td>
+      <td>Macaé</td>
+      <td><span class="badge badge-subtle theme-warning w-6">MANUTENÇÃO</span></td>
+    </tr>
+    <tr>
+      <th scope="row">Ventania</th>
+      <td>Petroleiro</td>
+      <td>Suape</td>
+      <td><span class="badge badge-subtle theme-success w-6">EM ROTA</span></td>
+    </tr>
+    <tr>
+      <th scope="row">Corais</th>
+      <td>Lancha de apoio</td>
+      <td>Rio de Janeiro</td>
+      <td><span class="badge badge-subtle theme-secondary w-6">NO PORTO</span></td>
+    </tr>
+  </tbody>
+</table>
+</div>
+</section>
+
+</body>
+</html>

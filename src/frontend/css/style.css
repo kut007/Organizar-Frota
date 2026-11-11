@@ -294,6 +294,54 @@ margin-bottom: 1rem;
     margin-top: 1rem;
 }
 
+.banner-catalogo{
+  background-image: url(../assets/images/catalogo.png);
+  color: white;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 5rem;
+  height: 24rem;
+}
 
 
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+  .card-info {
+    width: 350px;
+    height: 260px;
+    padding: 24px;
+    background-color: #ffffff;
+    border: 1px solid #e0e0e0;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+    cursor: pointer;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+
+  .card-info:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.15);
+  }
+
+  .card-info h3 {
+    margin: 0 0 8px 0;
+    color: #222222;
+  }
+
+  .card-info p {
+    margin: 0;
+    color: #555555;
+    font-size: 14px;
+    line-height: 1.4;
+  }
+
+td, th {
+  padding-left: 20px;
+  padding-right: 10px;
+  font-size: 14px;
+}
 
